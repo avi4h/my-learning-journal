@@ -1,0 +1,27 @@
+/* Footer */
+footer{
+    color: rgba(215, 215, 215, 1);
+    background-color: rgba(32, 32, 32, 1);
+    text-align: center;
+    padding: clamp(0.75rem, 2vw, 0.80rem) 0;
+}
+footer p{
+    font-size: clamp(0.75rem, 2vw, 0.80rem);
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    footer{
+        padding: clamp(0.8rem, 2vw, 0.85rem) 0;
+    }
+    footer p{
+        font-size: clamp(0.8rem, 2vw, 0.85rem);
+    }
+}
+@media (min-width: 1024px){
+    footer{
+        padding: clamp(0.85rem, 2vw, 0.9rem) 0;
+    }
+    footer p{
+        font-size: clamp(0.85rem, 2vw, 0.9rem);
+    }
+}
