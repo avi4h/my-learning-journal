@@ -25,12 +25,11 @@
 }
 #blog-img{
     width: 100%;
-    height: 40vw;
+    height: 100%;
     display: block;
     box-sizing: border-box;
     padding-top: 2vw;
     padding-bottom: 3vw;
-    object-fit: cover;
 }
 .blog-inside-head{
     font-size: clamp(1rem, 4vw, 1.8rem);
@@ -72,6 +71,10 @@
         padding-top: 0.65em;
         padding-bottom: 0.65em;
     }
+    #blog-img{
+        height: 50vw;
+        object-fit: cover;
+    }
     #post-section{
         padding: clamp(1.8rem, 3vw, 2.5rem) clamp(1.5rem, 3.2vw, 2.1rem) clamp(1.3rem, 2.5vw, 2rem);
     }
@@ -80,6 +83,10 @@
     #blog-date, #blog-head, #blog-sub, #blog-post{
         padding-left: clamp(4.5rem, 35vw, 6rem);
         padding-right: clamp(4.5rem, 35vw, 6rem);
+    }
+    #blog-img{
+        height: 42vw;
+        object-fit: cover;
     }
     #blog-head{
         padding-top: 0.65em;
