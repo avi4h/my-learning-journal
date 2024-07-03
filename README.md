@@ -1,8 +1,15 @@
-# My Learning Journal: Showcasing Web Dev Skills
+## Mobile 
+![image](https://github.com/avi4h/my-learning-journal/assets/93165148/ffb473b6-a2b9-480c-ab7c-6b582511c313)
 
-This repository hosts the code for my personal learning journal website. It's built with vanilla JavaScript, HTML, and CSS, demonstrating my front-end development skills and passion for clean, maintainable code.
+## Tablet
+![image](https://github.com/avi4h/my-learning-journal/assets/93165148/4fcaacfc-1be8-483f-a4ca-af82d9e820c2)
 
-## Features
+## Laptop
+![image](https://github.com/avi4h/my-learning-journal/assets/93165148/e67c9d12-a5b9-47ff-a3da-f88922fcc58b)
+
+
+## Features 
+
 
 * **Dynamic Blog Posts:** Content is managed efficiently using JavaScript and an array of post objects, allowing for easy updates and expansion.
 * **Randomized Featured Post:** The homepage showcases a different featured post on each load, keeping the content fresh and engaging.
@@ -30,13 +37,3 @@ This repository hosts the code for my personal learning journal website. It's bu
 * **about.html:**  The about page, providing information about the author.
 * **blog[1-13].html:** Individual HTML files for each blog post.
 
-## How This Benefits Recruiters
-
-* **Code in Action:** See my front-end skills demonstrated through a live, functional website [Click here](https://my-learning-journal-responsive.netlify.app).
-* **Problem-Solving:** The code showcases my ability to structure data effectively and create dynamic content using JavaScript.
-* **Attention to Detail:** The website's responsive design and clean code structure reflect my commitment to quality and maintainability.
-* **Continuous Learning:** The nature of the learning journal demonstrates my ongoing dedication to expanding my skills and exploring new technologies.
-
-## Let's Connect!
-
-Feel free to explore the code, and don't hesitate to reach out if you'd like to discuss my work or explore potential collaborations.
