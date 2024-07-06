@@ -45,6 +45,20 @@
     font-size: clamp(0.9rem, 3vw, 1rem);
     letter-spacing: normal;
 }
+#main-btn{
+    font-size: clamp(15px, 1.2vw ,25px);
+    font-weight: 600;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    border: 0.05em solid whitesmoke;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+}
+#main-btn:hover{
+    background-color: rgba(0, 0, 0, 0.203);
+    color: white;
+}
 
 
 
