@@ -13,7 +13,7 @@ export const posts = [
             "Fueling your runs properly is also essential. Prioritize carbohydrates in the days leading up to a long run, and don't forget to stay hydrated before, during, and after your runs. Experiment with different energy gels or chews to find what works best for you during long runs.",
             "Finally, staying motivated is crucial. Running long distances can be mentally taxing, so find ways to keep yourself engaged. Run with a friend or join a running group for added accountability and camaraderie. Set realistic goals and celebrate your achievements, no matter how small they may seem. Remember, the most important thing is to enjoy the journey!"
         ],
-        tags: ["running", "long distance", "beginner", "training"]
+        tags: ["fitness", "running"]
     },
     {
         id:2,
@@ -29,7 +29,7 @@ export const posts = [
             "There are a variety of tools and techniques that can be employed during the problem-solving process. Brainstorming encourages creative idea generation, while root cause analysis focuses on identifying the underlying source of the problem. The 'working backward' method, starting with the desired solution and retracing the steps, can also be valuable.",
             "Remember, problem-solving is not a one-time skill but rather a muscle that strengthens with consistent use.  Actively seek out opportunities to apply your problem-solving skills in diverse situations.  Don't be discouraged by setbacks or initial struggles. Analyze your mistakes, learn from them, and refine your approaches accordingly."
         ],
-        tags: ["problem solving", "critical thinking", "strategy", "decision making"]
+        tags: ["problem solving", "critical thinking"]
     },
     {
         id:3,
@@ -45,7 +45,7 @@ export const posts = [
             "The beauty of chess is that there's always more to learn. Online platforms offer opportunities to play against opponents of all levels, analyze games, and study classic matches. Numerous books and resources are also available to deepen your understanding of chess strategy and tactics.",
             "Whether you aspire to become a competitive player or simply enjoy the intellectual challenge, chess offers a journey of continuous learning and self-improvement."
         ],
-        tags: ["chess", "strategy", "tactics", "board game"]
+        tags: ["chess", "strategy"]
     },
     {
         id:4,
@@ -61,7 +61,7 @@ export const posts = [
             "Algorithms, on the other hand, are the recipes that tell the computer how to perform tasks, such as searching, sorting, or finding the shortest path between two points.  Efficient algorithms ensure that these tasks are completed as quickly and with as few resources as possible.",
             "Mastering DSA is essential for any aspiring programmer. It not only enhances your problem-solving skills but also makes you a more versatile and sought-after developer."
         ],
-        tags: ["programming", "data structures", "algorithms", "coding"]
+        tags: ["programming", "algorithms"]
     },
     {
         id:5,
@@ -77,7 +77,7 @@ export const posts = [
             "Don't be afraid to make mistakes. Programming is all about trial and error. The more you experiment, the more you'll learn. And when you get stuck (which you inevitably will), don't hesitate to seek help from online communities or forums.",
             "Remember, the journey of a programmer is a marathon, not a sprint.  Be patient, persistent, and never stop learning.  The rewards of creating something from nothing, of bringing your ideas to life through code, are immeasurable."
         ],
-        tags: ["programming", "coding", "beginner", "software development"]
+        tags: ["programming", "software development"]
     },
     {
         id:6,
@@ -93,7 +93,7 @@ export const posts = [
             "Once you have a clear purpose, focus on creating high-quality content that provides value to your audience.  Engage in meaningful conversations, listen actively, and be respectful of others' viewpoints.",
             "Remember, social media should be a tool for connection and enrichment, not a source of stress or comparison.  By staying true to yourself and focusing on what truly matters, you can cultivate an online presence that is both authentic and fulfilling."
         ],
-        tags: ["social media", "authenticity", "engagement", "content creation"]
+        tags: ["social media", "content creation"]
     },
     {
         id:7,
@@ -109,7 +109,7 @@ export const posts = [
             "By slowing down and creating space for reflection, we can reduce stress, enhance creativity, and improve our overall well-being. This, in turn, can lead to greater focus, clarity, and ultimately, increased productivity in the areas of our lives that truly matter.",
             "Embracing slow living isn't about doing less; it's about doing more of what matters. It's about aligning our actions with our values and creating a life that feels balanced, meaningful, and authentic."
         ],
-        tags: ["slow living", "mindfulness", "productivity", "well-being"]
+        tags: ["productivity", "well-being"]
     },
     {
         id:8,
@@ -124,7 +124,7 @@ export const posts = [
             "By decluttering your physical space, you create mental clarity and a sense of peace. By simplifying your commitments, you free up time and energy for the things you're truly passionate about.",
             "Minimalism is a journey, not a destination. It's about finding what brings you joy and aligning your life accordingly.  Start small, focus on one area at a time, and be patient with the process. You'll be amazed at the transformative power of less.",
         ],
-        tags: ["minimalism", "simplicity", "declutter", "intentional living"]
+        tags: ["minimalism", "declutter"]
     },
     {
         id:9,
@@ -139,7 +139,7 @@ export const posts = [
             "By actively seeking out new knowledge and skills, you keep your mind sharp, expand your horizons, and open yourself up to new opportunities.  You also become more adaptable, resilient, and better equipped to navigate the complexities of an ever-changing world.",
             "Make time for learning, even if it's just for a few minutes each day.  Cultivate a curiosity about the world around you and never be afraid to ask questions. The more you learn, the more you realize how much there is still to discover."
         ],
-        tags: ["learning", "personal growth", "growth mindset", "self-improvement"]
+        tags: ["learning", "growth mindset"]
     },
     {
         id:10,
@@ -154,7 +154,7 @@ export const posts = [
             "Make it easy to succeed by removing barriers and setting yourself up for success.  For example, if you want to start exercising in the morning, lay out your workout clothes the night before.  If you want to eat healthier, stock your kitchen with nutritious foods.",
             "Remember that setbacks are a normal part of the process.  Don't be discouraged if you miss a day or slip up.  The important thing is to get back on track as soon as possible and continue building momentum.",
         ],
-        tags: ["habits", "routine", "productivity", "time management"]
+        tags: ["habits", "time management"]
     },
     {
         id:11,
@@ -169,7 +169,7 @@ export const posts = [
             "Be present in the conversation, ask clarifying questions, and reflect back what you've heard to ensure understanding.  Avoid interrupting or offering unsolicited advice.  Sometimes, the best thing you can do is simply listen with empathy and understanding.",
             "When it's your turn to speak, be clear, concise, and respectful.  Use \"I\" statements to express your feelings and needs, and avoid blaming or accusing language.",
         ],
-        tags: ["communication", "active listening", "relationships", "interpersonal skills"]
+        tags: ["communication", "active listening"]
     },
     {
         id:12,
@@ -184,7 +184,7 @@ export const posts = [
             "Once you have a solid business idea, it's time to start building a foundation.  Develop a business plan, conduct market research, and identify your target audience.  Network with other entrepreneurs, mentors, and potential investors.",
             "Remember that launching a successful business takes time, effort, and resilience.  Be prepared to work hard, learn from your mistakes, and never give up on your dreams."
         ],
-        tags: ["entrepreneurship", "business", "startup", "small business"]
+        tags: ["entrepreneurship", "startup"]
     },
     {
         id:13,
@@ -198,6 +198,6 @@ export const posts = [
             "Before you embark on your next adventure, take some time to research your destination. Learn about the local customs, traditions, and language. Pack light, be open to new experiences, and don't be afraid to step outside your comfort zone.",
             "Embrace the unexpected detours and serendipitous encounters. Some of the most memorable travel experiences happen when we least expect them. Savor the flavors of local cuisine, connect with people from different walks of life, and return home with a renewed sense of wonder and appreciation for the world around you."
         ],
-        tags: ["travel", "culture", "adventure", "exploration"]
+        tags: ["travel", "exploration"]
     }
 ]

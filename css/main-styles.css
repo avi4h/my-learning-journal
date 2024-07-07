@@ -49,40 +49,46 @@
 }
 .main-tag{
     font-size: clamp(0.9rem, 3vw, 1rem);
-    line-height: 2;
+    line-height: 2.4;
     background-color: rgba(160, 160, 160, 0.503);
     border-radius: 1em;
     list-style: none;
-    padding: 0 1.3em;
+    padding: 0  1.3em;
     font-weight: 500;
     text-transform: capitalize;
     backdrop-filter: blur(20px); 
     -webkit-backdrop-filter: blur(100px); /* For Safari */
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 }
 #main-head{
     font-size: clamp(32px, 2vw ,40px);
     font-weight: 700;
     line-height: 1;
     margin: 0.3em 0px;
+    text-shadow: 1px 1px 9px rgba(0, 0, 0, 0.31);
 }
 #main-desc{
     line-height: 1.25;
     font-size: clamp(0.9rem, 3vw, 1rem);
     letter-spacing: normal;
+    text-shadow: 3px 2px 9px rgba(0, 0, 0, 0.39);
 }
 #main-btn{
     font-size: clamp(15px, 1.2vw ,25px);
     font-weight: 600;
     padding: 0.5em 0.9em;
     margin-top: 1em;
-    border: 0.05em solid whitesmoke;
+    border: 0.09em solid whitesmoke;
     border-radius: 0.2em ;
-    color: rgb(0, 0, 0);
-    background-color: whitesmoke;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px);
 }
 #main-btn:hover{
-    background-color: rgba(0, 0, 0, 0.203);
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
 }
 
 

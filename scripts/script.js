@@ -25,7 +25,7 @@ function postCardHtml() {
       return `<div class="post-div" class-post="${post.id}">
           <img class="post-img" src="${post.imageLocation}" alt="${post.title}">
           <p class="post-date">${post.date}</p>
-          <h3 class="post-head"><a href="/pages/blog${post.id}.html">${post.heading}</a></h3>
+          <h3 class="post-head"><a href="/pages/blog${post.id}.html">${post.title}</a></h3>
           <p class="post-desc">${post.abstract}</p>
         </div>`
     }).join('')
@@ -40,7 +40,6 @@ function headPostHtml() {
                 <ul id="main-tags">
                     <li class="main-tag">${headPost.tags[0]}</li>
                     <li class="main-tag">${headPost.tags[1]}</li>
-                    <li class="main-tag">${headPost.tags[2]}</li>
                 </ul>
                 <p class="" id="main-date">${headPost.date}</p>
                 <h2 class="" id="main-head"><a href="/pages/blog${headPost.id}.html">${headPost.title}</a></h2>
