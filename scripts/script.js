@@ -5,6 +5,9 @@ const postHeadEl = document.getElementById('main-section')
 const postsCurrent = [...posts].sort(() => 0.5 - Math.random()).slice(0, 6) 
 const headPost = getRandomElement(posts)
 
+renderHeadPost()
+
+renderPostCard()
 
 
 function getRandomElement(array) {
@@ -12,18 +15,33 @@ function getRandomElement(array) {
     return array[randomIndex]
 }
 
-function renderPostCard() {
-    postGridEl.innerHTML = postCardHtml()
-}
 
 function renderHeadPost() {
     postHeadEl.innerHTML = headPostHtml()
 }
+function headPostHtml() {
+    return `<img src=${headPost.imageLocation} id="main-img" alt="${headPost.title}" loading="lazy">
+          <div id="main-bg-color"></div>
+          <div class="" id="main-post">
+              <ul id="main-tags">
+                  <li class="main-tag">${headPost.tags[0]}</li>
+                  <li class="main-tag">${headPost.tags[1]}</li>
+              </ul>
+              <p class="" id="main-date">${headPost.date}</p>
+              <h2 class="" id="main-head"><a href="/pages/blog${headPost.id}.html">${headPost.title}</a></h2>
+              <p class="" id="main-desc">${headPost.abstract}</p>
+              <button id="main-btn"><a href="/pages/blog${headPost.id}.html">Read Blog</a></button>
+          </div>`
+}
 
+
+function renderPostCard() {
+    postGridEl.innerHTML = postCardHtml()
+}
 function postCardHtml() {
     const postHTML = postsCurrent.map(function(post) {
       return `<div class="post-div" class-post="${post.id}">
-          <img class="post-img" src="${post.imageLocation}" alt="${post.title}">
+          <img class="post-img" src="${post.imageLocation}" alt="${post.title}" loading="lazy">
           <p class="post-date">${post.date}</p>
           <h3 class="post-head"><a href="/pages/blog${post.id}.html">${post.title}</a></h3>
           <p class="post-desc">${post.abstract}</p>
@@ -33,21 +51,5 @@ function postCardHtml() {
     return postHTML
 }
 
-function headPostHtml() {
-      return `<img src=${headPost.imageLocation} id="main-img" alt="${headPost.title}">
-            <div id="main-bg-color"></div>
-            <div class="" id="main-post">
-                <ul id="main-tags">
-                    <li class="main-tag">${headPost.tags[0]}</li>
-                    <li class="main-tag">${headPost.tags[1]}</li>
-                </ul>
-                <p class="" id="main-date">${headPost.date}</p>
-                <h2 class="" id="main-head"><a href="/pages/blog${headPost.id}.html">${headPost.title}</a></h2>
-                <p class="" id="main-desc">${headPost.abstract}</p>
-                <button id="main-btn"><a href="/pages/blog${headPost.id}.html">Read Blog</a></button>
-            </div>`
-}
 
 
-renderHeadPost()
-renderPostCard()
