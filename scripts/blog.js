@@ -13,7 +13,7 @@ function postCardHtml() {
         return `<div class="post-div" class-post="${post.id}">
           <img class="post-img" src="${post.imageLocation}" alt="${post.title}">
           <p class="post-date">${post.date}</p>
-          <h3 class="post-head"><a href="/pages/blog${post.id}.html">${post.title}<a></h3>
+          <h3 class="post-head"><a href="/pages/blog${post.id}.html">${post.title}</a></h3>
           <p class="post-desc">${post.abstract}</p>
         </div>`
     }).join('')
