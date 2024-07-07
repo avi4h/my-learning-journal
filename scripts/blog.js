@@ -54,6 +54,7 @@ function createBlogPost(post) {
     const blogImg = document.createElement('img')
     blogImg.id = 'blog-img'
     blogImg.src = post.imageLocation
+    blogImg.alt = post.title
     blogSection.appendChild(blogImg)
 
     const blogPostDiv = document.createElement('div')

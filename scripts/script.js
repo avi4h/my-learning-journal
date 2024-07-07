@@ -34,7 +34,7 @@ function postCardHtml() {
 }
 
 function headPostHtml() {
-      return `<img src=${headPost.imageLocation} id="main-img">
+      return `<img src=${headPost.imageLocation} id="main-img" alt="${headPost.title}">
             <div id="main-bg-color"></div>
             <div class="" id="main-post">
                 <ul id="main-tags">
