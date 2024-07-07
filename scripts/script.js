@@ -37,12 +37,18 @@ function headPostHtml() {
       return `<img src=${headPost.imageLocation} id="main-img">
             <div id="main-bg-color"></div>
             <div class="" id="main-post">
+                <ul id="main-tags">
+                    <li class="main-tag">${headPost.tags[0]}</li>
+                    <li class="main-tag">${headPost.tags[1]}</li>
+                    <li class="main-tag">${headPost.tags[2]}</li>
+                </ul>
                 <p class="" id="main-date">${headPost.date}</p>
                 <h2 class="" id="main-head"><a href="/pages/blog${headPost.id}.html">${headPost.title}</a></h2>
                 <p class="" id="main-desc">${headPost.abstract}</p>
-                <button id="main-btn"><a href="/pages/blog${headPost.id}.html">Read More</a></button>
+                <button id="main-btn"><a href="/pages/blog${headPost.id}.html">Read Blog</a></button>
             </div>`
 }
+
 
 renderHeadPost()
 renderPostCard()
